@@ -1,0 +1,207 @@
+
+table.dataTable thead td {
+    padding: 10px 18px;
+    border-bottom: none !important;
+    text-align: right;
+}
+
+table.dataTable thead th, table.dataTable tfoot th {
+    padding: 10px 18px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+table.dataTable th.dt-center, table.dataTable td.dt-center{
+	border-left: 1px solid #e1e1e1;
+}
+
+.eb-filter{
+	float: right;
+}
+
+.eb-last-td {
+    border-right: 1px solid #e1e1e1;
+}
+
+.eb-filter select{
+	width:171px;
+}
+
+.eb-filter::before {
+    content: "Category: ";
+}
+
+.eb-dtable-error{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+.eb-ss-error-users-list{
+    display: block;
+    padding: 5px 0px 5px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.eb-ss-user-creation-success{
+    border-left: 5px solid #4caf50;
+    border-top: 1px solid #00ff00;
+    border-right: 1px solid #00ff00;
+    border-bottom: 1px solid #00ff00;
+}
+
+
+.eb-ss-user-creation-warning{
+    border-left: 5px solid #FFC107;
+    border-top: 1px solid #ffc107;
+    border-right: 1px solid #ffc107;
+    border-bottom: 1px solid #ffc107;
+}
+
+.eb-ss-user-creation-error{
+    border-left: 5px solid #ff0000;
+    border-top: 1px solid #ff0000bf;
+    border-right: 1px solid #ff0000bf;
+    border-bottom: 1px solid #ff0000bf;
+    background-color: #ffffff;
+}
+
+
+.eb-ss-msg-dismiss{
+    padding-right: 7px;
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+}
+
+
+.eb-ss-error-message-lable{
+    color: #000000;
+    font-weight: bold;
+}
+
+.eb-ss-error-users-list ol li{
+    margin-bottom: 6px;
+    padding: 5px;
+    margin-left: 35px;
+    color: #000000;
+}
+
+
+.eb-ss-msg-dismiss:hover{
+    color: #ff0000;
+}
+
+
+
+.eb-ss-erro-msgs{
+    color: green;
+}
+
+.eb-ss-erro-msgs span{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+.eb-ss-users-migration-error-tbl-wrap{
+    padding: 8% !important;
+    padding-top: 4% !important;
+    padding-bottom: 4% !important;
+}
+
+
+.eb-ss-users-error-dialog{
+    z-index: 1000;
+}
+
+
+.eb-ss-users-migration-error-tbl tbody tr td, .eb-ss-users-migration-error-tbl thead tr th{
+    text-align: center;
+}
+
+
+.eb-ss-dialog-overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.73);
+    z-index: 999;
+}
+
+
+.eb-ss-migration-error-show-pop-up{
+    color: #1170a0;
+    cursor: pointer;
+}
+
+.eb-ss-migration-error-show-pop-up:hover{
+    text-decoration: underline;
+}
+
+
+.eb-ss-migration-error-show{
+    color: red;
+}
+
+
+.eb-ss-user-pop-up-cont{
+    display: none;
+}
+
+
+
+.eb-ss-user-heading.eb-ss-all-users-heading{
+    border-top: solid 1px #80808045;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+
+.eb-ss-user-heading{
+    padding-top: 20px;
+}
+
+#moodle_courses_table_wrapper{
+    padding-top: 30px;
+}
+
+
+#moodle_courses_table thead tr th{
+    background-color: white;
+}
+
+#moodle_courses_table tfoot tr th{
+    background-color: white;
+}
+
+
+.eb-ss-selective-users-cont table thead tr th{
+    font-weight: 500;
+}
+
+.eb-ss-selective-users-cont table tfoot tr th{
+    font-weight: 500;
+}
+
+
+.eb_ss_users_status{
+    font-weight: 500;
+}
+
+
+.eb-ss-user-warning-msgs{
+    color: #FF9800;
+}
+
+
+.eb-ss-total-users{
+    display: none;
+}
